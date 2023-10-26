@@ -75,7 +75,7 @@ public class Menu {
         BufferedReader dbBufferedReader = new BufferedReader(dbReader);
 
         // Instasiasi tmp database yg bakal di write
-        File tempDB = new File("temp_-");
+        File tempDB = new File("temp-db.csv");
         /* 
         * 1. pake writer buat "hapus" data tmp, caranya dengan nge copy (write) isi database asal
         *    terus nge skip baris yg mau dihapus sehingga baris yg mau dihapus ga dipindahin ke database tmp
